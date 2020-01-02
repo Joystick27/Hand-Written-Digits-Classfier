@@ -1,0 +1,3 @@
+The first problem encountered was to install pygame. conda install pygame wont work. Please use pip install pygame to make pygame work.
+The requrement file is updated just use the command "conda create --name tensorflow --file requrement.txt" without the quotes to create a
+specific environment with name tensorflow to start.

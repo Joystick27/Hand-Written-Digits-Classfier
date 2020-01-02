@@ -28,12 +28,12 @@ for img in range(len(xTrain)):
 # [0, 1, 1, 0]]
 
 # Displaying one of the images.
-# plt.figure(figsize=(15, 15))
-# plt.imshow(xTrain[1])
-# plt.xlabel("An Example image of a digit")
-# plt.colorbar()
-# plt.grid(False)
-# plt.show()
+plt.figure(figsize=(15, 15))
+plt.imshow(xTrain[1])
+plt.xlabel("An Example image of a digit")
+plt.colorbar()
+plt.grid(False)
+plt.show()
 
 model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Flatten())
